@@ -1,0 +1,43 @@
+<svg width="100%" viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes t1{0%,15%{width:0}45%,100%{width:18ch}}
+      @keyframes t2{0%,47%{width:0}75%,100%{width:32ch}}
+      @keyframes t3{0%,77%{width:0}96%,100%{width:22ch}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      .g{fill:#3fb950;font-family:monospace;font-size:14px}
+      .d{fill:#8b949e;font-family:monospace;font-size:13px}
+      .b{fill:#58a6ff;font-family:monospace;font-size:13px}
+      .o{fill:#f0883e;font-family:monospace;font-size:14px}
+      .w{fill:#e6edf3;font-family:monospace;font-size:13px}
+      .cur{fill:#3fb950;animation:blink 1s step-end infinite}
+      .clip1{animation:t1 7s steps(18,end) infinite}
+      .clip2{animation:t2 7s steps(32,end) infinite}
+      .clip3{animation:t3 7s steps(22,end) infinite}
+    </style>
+    <clipPath id="c1"><rect class="clip1" x="40" y="155" width="0" height="22"/></clipPath>
+    <clipPath id="c2"><rect class="clip2" x="40" y="179" width="0" height="22"/></clipPath>
+    <clipPath id="c3"><rect class="clip3" x="40" y="203" width="0" height="22"/></clipPath>
+  </defs>
+  <rect width="680" height="340" rx="10" fill="#0d1117"/>
+  <rect width="680" height="36" rx="10" fill="#161b22"/>
+  <rect y="26" width="680" height="10" fill="#161b22"/>
+  <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="18" r="6" fill="#27c93f"/>
+  <text class="d" x="80" y="23">0xf3rgx@kali — bash</text>
+  <text class="d" x="40" y="75">$ whoami</text>
+  <text class="g" x="40" y="100" font-weight="700" font-size="15">  Belal Fergani — Penetration Tester</text>
+  <text class="b" x="40" y="122">  BSNU · Cyber Security · Bug Hunter</text>
+  <text class="d" x="40" y="148">$ cat /etc/motto</text>
+  <text class="g" x="40" y="170" clip-path="url(#c1)">"I haven't slept,</text>
+  <text class="g" x="40" y="194" clip-path="url(#c2)"> but your system is secure now."</text>
+  <text class="o" x="40" y="218" clip-path="url(#c3)">                  — 0xf3rgx</text>
+  <text class="b" x="40" y="260">┌─(</text>
+  <text class="g" x="76" y="260">0xf3rgx</text>
+  <text class="b" x="130" y="260">㉿kali)</text>
+  <text class="d" x="195" y="260">-[~]</text>
+  <text class="b" x="40" y="284">└─$</text>
+  <text class="w" x="70" y="284"> nmap -sV --open target.com</text>
+  <text class="cur" x="285" y="284" font-size="15">█</text>
+</svg>
